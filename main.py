@@ -36,4 +36,5 @@ def main_logic():
         print(f"Tempo total de percurso: {total_time} minutos.\n")
 
 if __name__ == '__main__':
+
     main_logic()

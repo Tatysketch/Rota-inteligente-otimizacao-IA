@@ -41,7 +41,6 @@ Para executar o projeto localmente, siga os seguintes passos:
     ```bash
     pip install pandas scikit-learn matplotlib networkx
     ```
-    *(Nota: Reordenei para incluir `pandas` e `matplotlib` que você está usando.)*
 4.  Execute o script principal para visualizar a otimização das rotas:
     ```bash
     python src/main.py

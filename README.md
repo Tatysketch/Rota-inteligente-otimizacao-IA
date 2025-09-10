@@ -24,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias e conceitos de IA:
 - Algoritmos de Busca 🔍: A*, Busca em Largura (BFS) e Busca em Profundidade (DFS).
 - Teoria de Grafos 🕸️: Representação do problema urbano como um grafo para encontrar o caminho ideal.
 - Aprendizado Não Supervisionado 🧬: Algoritmo K-Means para o agrupamento de entregas.
-
+[ROTAS DE ENTREGAS](https://github.com/Tatysketch/Rota-inteligente-otimizacao-IA/blob/main/ROTAS-otimiza%C3%A7%C3%A3o.png?raw=true)
 
 ### **Como Usar**
 

@@ -1,14 +1,24 @@
 import pandas as pd
 import networkx as nx
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 from src.graph import create_graph, find_shortest_path
 from src.clustering import perform_clustering
-def main_logic():
-    
-    df_customers = perform_clustering()
 
+def main_logic():
+    # Definição do dataset de cidades para o grafo
+    cities = {
+        'A': (30, 10), 'B': (20, 15), 'C': (25, 35), 'D': (10, 25), 
+        'E': (40, 10), 'F': (45, 15), 'G': (42, 30), 'H': (5, 20),
+        'I': (12, 28), 'J': (28, 5)
+    }
+
+    # 1. Agrupamento de Clientes
+    # A função perform_clustering agora retorna dois valores, então ajustamos aqui
+    df_customers, kmeans = perform_clustering()
+    
     # 2. Cria o grafo da cidade
-    city_graph = create_graph()
+    # A função create_graph precisa receber o dicionário 'cities'
+    city_graph = create_graph(cities)
     hub_node = 0
 
     print("\n--- Otimização das Rotas por Entregador (Cluster) ---")
@@ -30,13 +40,13 @@ def main_logic():
                 total_time += time
                 current_node = customer_node
 
-        path_names = [city_graph.nodes[node]['name'] for node in total_route]
-        
+        # O código original estava pegando o nome dos nós do grafo, mas os clientes são IDs
+        # Mudei para pegar os IDs dos clientes diretamente
         print(f"--- Rota para o Entregador do Cluster {cluster_id} ---")
-        print(" -> ".join(path_names))
-        print(f"Tempo total de percurso: {total_time} minutos.\n")
+        print(" -> ".join(map(str, cluster_customers)))
+        print(f"Tempo total de percurso: {total_time:.2f} minutos.\n")
 
 if __name__ == '__main__':
-
     main_logic()
+
 

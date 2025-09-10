@@ -48,5 +48,5 @@ def main_logic():
 
 if __name__ == '__main__':
     main_logic()
-
+plt.savefig('visualizacao_otimizada.png') # Salva a imagem em um arquivo
 

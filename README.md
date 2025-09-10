@@ -46,3 +46,8 @@ Para executar o projeto localmente, siga os seguintes passos:
     ```bash
     python src/main.py
     ```
+5. 💙🖋️ Autoria
+Autor(a): Tatielle Pereira Dias Troto 💻✨
+Disciplina: Artificial Intelligence Fundamentals 🧠📊
+
+

@@ -25,6 +25,7 @@ O projeto foi construído utilizando as seguintes tecnologias e conceitos de IA:
 - Teoria de Grafos 🕸️: Representação do problema urbano como um grafo para encontrar o caminho ideal.
 - Aprendizado Não Supervisionado 🧬: Algoritmo K-Means para o agrupamento de entregas.
 
+
 ### **Como Usar**
 
 Para executar o projeto localmente, siga os seguintes passos:

@@ -40,9 +40,12 @@ def main_logic():
     plt.ylabel('Latitude', fontsize=12)
     plt.legend()
     plt.grid(True)
+    
+    # Salva o gráfico em um arquivo de imagem
+    plt.savefig('grafico_otimizacao.png')
+
+    # Exibe o gráfico na tela do Colab
     plt.show()
 
 if __name__ == '__main__':
     main_logic()
-    
-plt.savefig('visualizacao_otimizada.png') # Salva a imagem em um arquivo

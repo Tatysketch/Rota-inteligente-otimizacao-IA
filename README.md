@@ -25,3 +25,24 @@ O projeto foi construído utilizando as seguintes tecnologias e conceitos de IA:
 - Teoria de Grafos 🕸️: Representação do problema urbano como um grafo para encontrar o caminho ideal.
 - Aprendizado Não Supervisionado 🧬: Algoritmo K-Means para o agrupamento de entregas.
 
+### **Como Usar**
+
+Para executar o projeto localmente, siga os seguintes passos:
+
+1.  Clone o repositório para a sua máquina local:
+    ```bash
+    git clone [https://github.com/Tatysketch/Rota-inteligente-otimizacao](https://github.com/Tatysketch/Rota-inteligente-otimizacao)
+    ```
+2.  Navegue até a pasta do projeto:
+    ```bash
+    cd Rota-inteligente-otimizacao-ia
+    ```
+3.  Instale as dependências necessárias (certifique-se de ter `pip` instalado):
+    ```bash
+    pip install pandas scikit-learn matplotlib networkx
+    ```
+    *(Nota: Reordenei para incluir `pandas` e `matplotlib` que você está usando.)*
+4.  Execute o script principal para visualizar a otimização das rotas:
+    ```bash
+    python src/main.py
+    ```

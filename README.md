@@ -49,6 +49,7 @@ Para executar o projeto localmente, siga os seguintes passos:
 5. 💙🖋️ Autoria
 
 Autor(a): Tatielle Pereira Dias Troto 💻✨
+
 Disciplina: Artificial Intelligence Fundamentals 🧠📊
 
 

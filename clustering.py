@@ -21,14 +21,15 @@ def perform_clustering():
     print("--- Agrupamento de Clientes ---")
     print(df_customers)
     
-    plt.figure(figsize=(10, 8))
-    plt.scatter(df_customers['longitude'], df_customers['latitude'], c=df_customers['cluster'], s=200, cmap='viridis', alpha=0.7)
-    plt.scatter(kmeans.cluster_centers_[:, 1], kmeans.cluster_centers_[:, 0], s=500, c='red', marker='X', label='Centróides')
-    plt.title('Pontos de Entrega Agrupados por K-Means', fontsize=16)
-    plt.xlabel('Longitude', fontsize=12)
-    plt.ylabel('Latitude', fontsize=12)
-    plt.legend()
-    plt.grid(True)
-    plt.show()
+   # plt.figure(figsize=(10, 8))
+   #plt.scatter(df_customers['longitude'], df_customers['latitude'], c=df_customers['cluster'], s=200, cmap='viridis', alpha=0.7)
+   #plt.scatter(kmeans.cluster_centers_[:, 1], kmeans.cluster_centers_[:, 0], s=500, c='red', marker='X', label='Centróides')
+   # plt.title('Pontos de Entrega Agrupados por K-Means', fontsize=16)
+   # plt.xlabel('Longitude', fontsize=12)
+   # plt.ylabel('Latitude', fontsize=12)
+   # plt.legend()
+   # plt.grid(True)
+   # plt.show()
+
 
     return df_customers

@@ -1,9 +1,10 @@
-# Certifique-se de que as células 1 e 2 foram executadas antes desta.
 import pandas as pd
 import networkx as nx
-
+import matplotlib.pyplot as plt 
+from src.graph import create_graph, find_shortest_path
+from src.clustering import perform_clustering
 def main_logic():
-    # 1. Realiza o agrupamento para obter os clusters de clientes
+    
     df_customers = perform_clustering()
 
     # 2. Cria o grafo da cidade
@@ -38,3 +39,4 @@ def main_logic():
 if __name__ == '__main__':
 
     main_logic()
+

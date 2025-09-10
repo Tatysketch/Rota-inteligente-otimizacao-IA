@@ -2,7 +2,7 @@
 
 📌 Sobre o Projeto
 Este projeto foi desenvolvido como uma solução inteligente para otimizar a gestão de entregas da empresa de delivery de alimentos "Sabor Express" 🍔. A iniciativa surge como resposta ao desafio de gerenciar eficientemente as entregas durante horários de pico ⏰, que resultavam em rotas ineficientes, atrasos e insatisfação dos clientes 😞.
-A solução proposta utiliza algoritmos de Inteligência Artificial 🤖 para sugerir as rotas mais eficientes para os entregadores. O problema foi modelado como um grafo 🗺️, onde os pontos de entrega são representados por nós e as ruas por arestas, com pesos baseados em distância ou tempo, Gráfico de Otimização de Rotas(https://github.com/Tatysketch/Rota-inteligente-otimizacao-IA/blob/main/Grafico_Rotas-de-entregas.png).
+A solução proposta utiliza algoritmos de Inteligência Artificial 🤖 para sugerir as rotas mais eficientes para os entregadores. O problema foi modelado como um grafo 🗺️, onde os pontos de entrega são representados por nós e as ruas por arestas, com pesos baseados em distância ou tempo, ![Gráfico de Otimização de Rotas](https://github.com/Tatysketch/Rota-inteligente-otimizacao-IA/blob/main/Grafico_Rotas-de-entregas.png).
 
 ⚙️ Funcionalidades
 - Otimização de Rotas: Aplicação de algoritmos de busca (como A*, busca em largura/profundidade) para encontrar o menor caminho entre múltiplos pontos de entrega 🧭.

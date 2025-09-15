@@ -27,19 +27,18 @@ O projeto foi construído utilizando as seguintes tecnologias e conceitos de IA:
 * **Aprendizado Não Supervisionado** 🧬: Algoritmo **K-Means** para o agrupamento de entregas.
 [ROTAS DE ENTREGAS](https://github.com/Tatysketch/Rota-inteligente-otimizacao-IA/blob/main/ROTAS-otimiza%C3%A7%C3%A3o.png?raw=true)
 
-### **Como Usar**
-
+### 💻 Como Usar
 Para executar o projeto localmente, siga os seguintes passos:
 
 1.  Clone o repositório para a sua máquina local:
     ```bash
-    git clone [https://github.com/Tatysketch/Rota-inteligente-otimizacao](https://github.com/Tatysketch/Rota-inteligente-otimizacao)
+    git clone [https://github.com/Tatysketch/Rota-inteligente-otimizacao-ia](https://github.com/Tatysketch/Rota-inteligente-otimizacao-ia)
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
     cd Rota-inteligente-otimizacao-ia
     ```
-3.  Instale as dependências necessárias (certifique-se de ter `pip` instalado):
+3.  Instale as dependências necessárias (certifique-se de ter o `pip` instalado):
     ```bash
     pip install pandas scikit-learn matplotlib networkx
     ```

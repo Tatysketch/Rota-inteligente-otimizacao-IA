@@ -38,7 +38,7 @@ Para executar o projeto localmente, siga os seguintes passos:
     ```bash
     cd Rota-inteligente-otimizacao-ia
     ```
-3.  Instale as dependências necessárias (certifique-se de ter o `pip` instalado):
+3.  Instale as bibliotecas necessárias:
     ```bash
     pip install pandas scikit-learn matplotlib networkx
     ```

@@ -19,12 +19,12 @@ Em um cenário real, a otimização de rotas deve ser dinâmica e resiliente �
 - Adaptação Veicular: Em condições climáticas adversas 🌧️, como chuva, veículos adicionais (carros) podem ser acionados para suprir a demanda e manter a segurança e a velocidade das entregas 🛞, garantindo que o serviço não seja interrompido.
 - Agentes de Backup: Dois agentes de backup 🧑‍🔧 são mantidos prontos para intervir em imprevistos menores, como um pneu furado ou outro problema mecânico 🔧, garantindo que a entrega seja concluída sem atrasos significativos.
 
-🧠 Tecnologias Utilizadas
+### 🧠 Tecnologias Utilizadas
 O projeto foi construído utilizando as seguintes tecnologias e conceitos de IA:
-- Python 🐍: Linguagem de programação principal.
-- Algoritmos de Busca 🔍: A*, Busca em Largura (BFS) e Busca em Profundidade (DFS).
-- Teoria de Grafos 🕸️: Representação do problema urbano como um grafo para encontrar o caminho ideal.
-- Aprendizado Não Supervisionado 🧬: Algoritmo K-Means para o agrupamento de entregas.
+
+* **Python** 🐍: Linguagem de programação principal.
+* **Teoria de Grafos** 🕸️: Para representar o problema de rotas e encontrar o caminho ideal. O algoritmo de **Dijkstra** foi usado para encontrar o caminho mais curto.
+* **Aprendizado Não Supervisionado** 🧬: Algoritmo **K-Means** para o agrupamento de entregas.
 [ROTAS DE ENTREGAS](https://github.com/Tatysketch/Rota-inteligente-otimizacao-IA/blob/main/ROTAS-otimiza%C3%A7%C3%A3o.png?raw=true)
 
 ### **Como Usar**
